@@ -83,7 +83,7 @@ const AudioPlayer = () => {
         alt="Album Cover"
       />
       <div className="music-player">
-        <h1 style={{color:'#61DAFB'}}>React Music Player</h1>
+        <h1 style={{color:'#61DAFB'}}>Audio Player</h1>
         <audio id="audio" src="https://podcast-api.netlify.app/placeholder-audio.mp3" />
         <div>
           <p>Current Time: {formatTime(currentTime)}</p>
