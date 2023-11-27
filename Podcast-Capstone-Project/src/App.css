@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  text-align: center; 
+  justify-content: center;
+  
+}
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: rgb(51, 51, 84);
+  
+}
+
+h2{
+  font-weight: bold;
+  color: #61cdfb;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ p {
+  margin: 2%;
+  color: #fdfdfd;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+
+nav {
+  border-radius: 10px;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  background-color: #030618;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+  max-width: 100%;
+  height: 'auto' ;
+  border-radius: 30px;
+}
+
+
+
+.podcast-list-container {
+  position: relative;
+  max-width: 150vh;
+  margin: auto;
+  padding: 20px;
+}
+
+.preview-list {
+  display: flex;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+  gap: 20px;
+}
+
+.preview-list li {
+  margin-bottom: 15px;
+  padding: 8px;
+  background-color: #5f4b4b;
+  border-radius: 4px;
+}
+
+.show-details {
+  margin-top: 20px;
+}
+
+.season-list {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.season-list li {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.season-details {
+  margin-top: 20px;
+}
+
+.episode-list {
+  list-style: none;
+  padding: 0;
+}
+
+.episode-list li {
+  margin-bottom: 8px;
+}
+
+
+.filter-sort-container {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-filter {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.sort-button {
+  cursor: pointer;
+  margin: 6px;
+  padding: 10px;
+  color: #61DAFB;
+  font-weight: bold;
+  background-color: #142de7;
+}
+
+.genres-container {
+  margin-top: 20px;
+}
+
+.genre-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.genre-list li {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #61DAFB;
+  color: #21222A;
+}
+
+.genre-list li:hover {
+  background-color: #45aaf2;
+}
+
+
+
+.music-player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cover-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.music-player {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+audio {
+  width: 100%;
+  margin: 10px 0;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(150, 4, 4);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.icon--play{
+  max-width: 25px;
+  }
+  
+  .icon--pause{
+    max-width: 25px;
+  }
+  
+img{
+  max-width: 70%;
+  margin: 1px;
+  align-items: center;
+}
+
+
+
+
